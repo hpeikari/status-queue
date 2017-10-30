@@ -17,7 +17,6 @@
   "scripts": {
     "clean": "npm i rimraf@2.6.2 -g && rimraf -rf dist lib test_coverage",
     "build": "webpack && babel src --out-dir lib --ignore test.js --presets react,es2015",  
-    "postinstall": "npm run-script build",  
     "test": "jest --coverage --no-cache"
   },
   "dependencies": {
