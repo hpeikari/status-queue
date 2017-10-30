@@ -1,0 +1,29 @@
+.ScenarioStatusQueueWrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: solid 1px $grey-53;
+  background-color: $white;
+
+  .ScenarioQueueHeader {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    font-size: 14px;
+    height: 40px;
+    color: $white;
+    border-bottom: solid 1px $grey-53;
+    background-color: $dark-blue;
+  }
+
+  .emptyQueue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    color: $grey-53;
+  }
+}

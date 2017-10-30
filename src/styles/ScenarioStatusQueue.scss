@@ -1,0 +1,7 @@
+:global{
+  @import './colors.scss';
+  @import '../components/ScenarioStatus.scss';
+
+  // comes at the end to get higher specificity when css-modules are not used
+  @import '../components/index.scss';
+}
